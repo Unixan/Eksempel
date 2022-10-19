@@ -88,23 +88,19 @@ function viewHKB() {
     clearAll();
     document.getElementById('hkbContent').innerHTML = /*HTML*/`
         <div class="innerCard">
-        <div>
-            <button>◀</button>
-            <img src="IMG/head1.png"/>
-            <button>▶</button>
+            <div class="alignCenter">
+                <button onclick="face4()">
+                ◀
+                </button>
+                    <img src="IMG/head1.png" />
+                <button onclick="face2()">
+                ▶
+                </button>
+
+                                                       
         </div>
-        <div>
-            <button>◀</button>
-            <img src="IMG/body1.png"/>
-            <button>▶</button>
-        </div>
-        <div>
-            <button>◀</button>
-            <img src="IMG/legs1.png"/>
-            <button>▶</button>
-        </div>
-</div>
 `}
+
 function clearAll() {
     document.getElementById('toolsContent').innerHTML = "";
     document.getElementById('cssContent').innerHTML = "";

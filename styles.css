@@ -40,3 +40,7 @@ body{
 p{
     padding-left: 10px;
 }
+.alignCenter{
+    display:flex;
+    justify-content: center;
+}
