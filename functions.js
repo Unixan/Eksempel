@@ -100,9 +100,7 @@ function changeHead1() {
         <button onclick="changeHead4()">
         ◀
         </button>
-        <div>
-            <img src="IMG/head1.png">
-        </div>
+                    <img src="IMG/head1.png">
         <button onclick="changeHead2()">
             ▶
         </button>
@@ -112,9 +110,7 @@ function changeHead2() {
         <button onclick="changeHead1()">
         ◀
         </button>
-        <div>
             <img src="IMG/head2.png"/>
-        </div>
         <button onclick="changeHead3()">
             ▶
         </button>
@@ -124,9 +120,7 @@ function changeHead3() {
         <button onclick="changeHead2()">
         ◀
         </button>
-        <div>
             <img src="IMG/head3.png"/>
-        </div>
         <button onclick="changeHead4()">
             ▶
         </button>
@@ -136,9 +130,7 @@ function changeHead4() {
         <button onclick="changeHead3()">
         ◀
         </button>
-        <div>
             <img src="IMG/head4.png"/>
-        </div>
         <button onclick="changeHead1()">
             ▶
         </button>
@@ -148,9 +140,7 @@ function changeBody1() {
         <button onclick="changeBody4()">
         ◀
         </button>
-        <div>
             <img src="IMG/body1.png"/>
-        </div>
         <button onclick="changeBody2()">
             ▶
         </button>
@@ -160,9 +150,7 @@ function changeBody2() {
         <button onclick="changeBody1()">
         ◀
         </button>
-        <div>
             <img src="IMG/body2.png"/>
-        </div>
         <button onclick="changeBody3()">
             ▶
         </button>
@@ -172,9 +160,7 @@ function changeBody3() {
         <button onclick="changeBody2()">
         ◀
         </button>
-        <div>
             <img src="IMG/body3.png"/>
-        </div>
         <button onclick="changeBody4()">
             ▶
         </button>
@@ -184,9 +170,7 @@ function changeBody4() {
         <button onclick="changeBody3()">
         ◀
         </button>
-        <div>
             <img src="IMG/body4.png"/>
-        </div>
         <button onclick="changeBody1()">
             ▶
         </button>
@@ -196,9 +180,7 @@ function changeLegs1() {
         <button onclick="changeLegs4()">
         ◀
         </button>
-        <div>
             <img src="IMG/legs1.png"/>
-        </div>
         <button onclick="changeLegs2()">
             ▶
         </button>
@@ -208,9 +190,7 @@ function changeLegs2() {
         <button onclick="changeLegs1()">
         ◀
         </button>
-        <div>
             <img src="IMG/legs2.png"/>
-        </div>
         <button onclick="changeLegs3()">
             ▶
         </button>
@@ -220,9 +200,7 @@ function changeLegs3() {
         <button onclick="changeLegs2()">
         ◀
         </button>
-        <div>
             <img src="IMG/legs3.png"/>
-        </div>
         <button onclick="changeLegs4()">
             ▶
         </button>
@@ -232,9 +210,7 @@ function changeLegs4() {
         <button onclick="changeLegs3()">
         ◀
         </button>
-        <div>
             <img src="IMG/legs4.png"/>
-        </div>
         <button onclick="changeLegs1()">
             ▶
         </button>

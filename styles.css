@@ -17,7 +17,7 @@ body{
     color: white;
     text-align: center;
     font-size: x-large;
-    padding: 0;
+    padding: 1% 0;
     border: 1px solid gray;
     user-select: none;
 }
@@ -41,8 +41,6 @@ p{
     padding-left: 10px;
 }
 .alignCenter{
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
-    }
+     }
