@@ -17,7 +17,7 @@ function viewTools() {
                                 </ul>
                             </li>
                             <li>
-                                Nettlseren <a href="https://www.google.com/chrome/" target="_new">Google Chrome</a>
+                                Nettleseren <a href="https://www.google.com/chrome/" target="_new">Google Chrome</a>
                             </li>
                         </ul>
                     </div >
