@@ -84,21 +84,14 @@ function viewJavaScript() {
             </ul>
         </div>
 `}
-function viewHKB() {
+function startHKB() {
     clearAll();
-    document.getElementById('hkbContent').innerHTML = /*HTML*/`
-        <div class="innerCard">
-            <div class="alignCenter">
-                <button onclick="face4()">
-                ◀
-                </button>
-                    <img src="IMG/head1.png" />
-                <button onclick="face2()">
-                ▶
-                </button>
+    changeHead1();
 
-                                                       
-        </div>
+}
+function changeHead1() {
+    /*HTML*/`
+        <button onclick="changeHead4()">◀</button>
 `}
 
 function clearAll() {
