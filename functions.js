@@ -85,14 +85,162 @@ function viewJavaScript() {
         </div>
 `}
 function startHKB() {
-    clearAll();
+    clearAll()
+    document.getElementById('hkbContent').innerHTML = /*HTML*/`
+            <div style="display:flex;" id="head" class="alignCenter"></div>
+            <div style="display:flex;" id="body" class="alignCenter"></div>
+            <div style="display:flex;" id="legs" class="alignCenter"></div>
+            `
     changeHead1();
-
+    changeBody1();
+    changeLegs1();
 }
 function changeHead1() {
-    /*HTML*/`
-        <button onclick="changeHead4()">◀</button>
-`}
+    document.getElementById('head').innerHTML = /*HTML*/` 
+        <button onclick="changeHead4()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/head1.png">
+        </div>
+        <button onclick="changeHead2()">
+            ▶
+        </button>
+        `}
+function changeHead2() {
+    document.getElementById('head').innerHTML = /*HTML*/` 
+        <button onclick="changeHead1()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/head2.png"/>
+        </div>
+        <button onclick="changeHead3()">
+            ▶
+        </button>
+        `}
+function changeHead3() {
+    document.getElementById('head').innerHTML = /*HTML*/` 
+        <button onclick="changeHead2()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/head3.png"/>
+        </div>
+        <button onclick="changeHead4()">
+            ▶
+        </button>
+        `}
+function changeHead4() {
+    document.getElementById('head').innerHTML = /*HTML*/` 
+        <button onclick="changeHead3()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/head4.png"/>
+        </div>
+        <button onclick="changeHead1()">
+            ▶
+        </button>
+        `}
+function changeBody1() {
+    document.getElementById('body').innerHTML = /*HTML*/` 
+        <button onclick="changeBody4()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/body1.png"/>
+        </div>
+        <button onclick="changeBody2()">
+            ▶
+        </button>
+        `}
+function changeBody2() {
+    document.getElementById('body').innerHTML = /*HTML*/` 
+        <button onclick="changeBody1()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/body2.png"/>
+        </div>
+        <button onclick="changeBody3()">
+            ▶
+        </button>
+        `}
+function changeBody3() {
+    document.getElementById('body').innerHTML = /*HTML*/` 
+        <button onclick="changeBody2()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/body3.png"/>
+        </div>
+        <button onclick="changeBody4()">
+            ▶
+        </button>
+        `}
+function changeBody4() {
+    document.getElementById('body').innerHTML = /*HTML*/` 
+        <button onclick="changeBody3()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/body4.png"/>
+        </div>
+        <button onclick="changeBody1()">
+            ▶
+        </button>
+        `}
+function changeLegs1() {
+    document.getElementById('legs').innerHTML = /*HTML*/` 
+        <button onclick="changeLegs4()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/legs1.png"/>
+        </div>
+        <button onclick="changeLegs2()">
+            ▶
+        </button>
+        `}
+function changeLegs2() {
+    document.getElementById('legs').innerHTML = /*HTML*/` 
+        <button onclick="changeLegs1()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/legs2.png"/>
+        </div>
+        <button onclick="changeLegs3()">
+            ▶
+        </button>
+        `}
+function changeLegs3() {
+    document.getElementById('legs').innerHTML = /*HTML*/` 
+        <button onclick="changeLegs2()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/legs3.png"/>
+        </div>
+        <button onclick="changeLegs4()">
+            ▶
+        </button>
+        `}
+function changeLegs4() {
+    document.getElementById('legs').innerHTML = /*HTML*/` 
+        <button onclick="changeLegs3()">
+        ◀
+        </button>
+        <div>
+            <img src="IMG/legs4.png"/>
+        </div>
+        <button onclick="changeLegs1()">
+            ▶
+        </button>
+        `}
+
+
 
 function clearAll() {
     document.getElementById('toolsContent').innerHTML = "";
