@@ -1,7 +1,18 @@
 body{
     margin-left: 20px;
 }
-
+.vertLayout{
+    display: flex;
+    flex-direction: column;
+}
+.horLayout{
+    display: flex;
+    flex-direction: row;
+}
+.gridLayout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .card{
     width: 500px;
     background-color: lightgray;

@@ -1,3 +1,18 @@
+function noLayout() {
+    document.getElementById('container').classList = [];
+}
+function verticalLayout() {
+    document.getElementById('container').classList = [];
+    document.getElementById('container').classList.add('vertLayout');
+}
+function horizontalLayout() {
+    document.getElementById('container').classList = [];
+    document.getElementById('container').classList.add('horLayout');
+}
+function gridLayout() {
+    document.getElementById('container').classList = [];
+    document.getElementById('container').classList.add('gridLayout')
+}
 function viewTools() {
     clearAll();
     document.getElementById('toolsContent').innerHTML = /*HTML*/`

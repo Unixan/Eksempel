@@ -13,33 +13,34 @@
 </head>
 
 <body>
-    <button>Ingen layout</button>
-    <button>Vertikal layout</button>
-    <button>Horisontal layout</button>
-    <button>Grid layout</button>
+    <button onclick="noLayout()">Ingen layout</button>
+    <button onclick="verticalLayout()">Vertikal layout</button>
+    <button onclick="horizontalLayout()">Horisontal layout</button>
+    <button onclick="gridLayout()">Grid layout</button>
 
     <h1>Eksempel 1</h1>
 
-    <div class="card">
-        <div class="header green" onclick="viewTools()">Verktøy</div>
-        <div id="toolsContent"></div>
-    </div>
-    <div class="card">
-        <div class="header blue" onclick="viewHTML()">HTML</div>
-        <div id="htmlContent"></div>
-    </div>
-    <div class="card">
-        <div class="header red" onclick="viewCSS()">CSS</div>
-        <div id="cssContent"></div>
-    </div>
-    <div class="card">
-        <div class="header yellow" onclick="viewJavaScript()">JavaScript</div>
-        <div id="javaScriptContent"></div>
-    </div>
-    <div class="card">
-        <div class="header dark" onclick="startHKB()">Hode, kropp og ben</div>
-        <div id="hkbContent"></div>
-
+    <div id="container">
+        <div class="card">
+            <div class="header green" onclick="viewTools()">Verktøy</div>
+            <div id="toolsContent"></div>
+        </div>
+        <div class="card">
+            <div class="header blue" onclick="viewHTML()">HTML</div>
+            <div id="htmlContent"></div>
+        </div>
+        <div class="card">
+            <div class="header red" onclick="viewCSS()">CSS</div>
+            <div id="cssContent"></div>
+        </div>
+        <div class="card">
+            <div class="header yellow" onclick="viewJavaScript()">JavaScript</div>
+            <div id="javaScriptContent"></div>
+        </div>
+        <div class="card">
+            <div class="header dark" onclick="startHKB()">Hode, kropp og ben</div>
+            <div id="hkbContent"></div>
+        </div>
     </div>
 
 </body>
